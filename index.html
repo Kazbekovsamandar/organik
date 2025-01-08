@@ -1,43 +1,244 @@
-<!doctype html>
+<!Doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
- <header>
-    <nav class="flex ml-[60px] mt-[25px]">
-        <img src="/assets/icons/Logo (1).svg" alt="logo">
+  <header>
+    <nav class="flex">
+      <img src="/assets/icons/Logo (1).svg" alt="logo" class="ml-[140px] mt-[70px]">
 
-        <div class="flex w-[1564px] h-[23px] flex gap-[55px] ml-[120px] text-[25px]" style="color: #274C5B;">
-            <p class="textsitem">Home</p>
-            <p class="textsitem">About</p>
-            <p class="textsitem">Pages</p>
-            <p class="textsitem">Shop</p>
-            <p class="textsitem">Projects</p>
-            <p class="textsitem">News</p>
-        </div>
+      <div class="flex text-[#274C5B] font-bold font-['Roboto'] text-[20px]  mt-[92px] ml-[130px] gap-[35px]">
+        <p class="textsitem">Home</p>
+        <p class="textsitem ml-[10px]">About</p>
+        <p class="textsitem ml-[10px]">Pages</p>
+        <p class="textsitem ml-[10px]">Shop</p>
+        <p class="textsitem ml-[10px]">Projects</p>
+        <p class="textsitem ml-[10px]">News</p>
+      </div>
 
-        <div class="flex gap-[55px] ml-[-550px] w-[376px] h-[66px] radius-[36px]">
-            <img src="/assets/icons/Search Icon.svg" alt="search">
-            <div class="flex gap-[55px]">
-                <img src="/assets/icons/Cart Icon.svg" alt="cart icon">
-                <p class="width-[159px] h-[66px] font-['Roboto'] font-normal left-[394px] text-[30px] mt-[10px] radius-[40px] border-[3px] rounded-xl" style="color: #274C5B;">Cart(0)</p>
-            </div>
+      <div class="flex mt-[70px] ml-[500px]">
+        <img src="/assets/icons/Search Icon.svg" alt="search" class="w-[56px] h-[56px]">
+        <div class="flex rounded-[33px] border-solid border-[2px] border-[#E0E0E0] w-[160px] ml-[20px]">
+          <img src="/assets/icons/Cart Icon.svg" alt="cart icon" class="w-[56px] h-[56px] ml-[2px] ">
+          <p class="text-[#274C5B] font-semibold font-['Roboto'] text-[18px] leading-[21px] mt-[17px] ml-[20px]">Cart(0)
+          </p>
         </div>
+      </div>
     </nav>
 
- </header>
+  </header>
+  <main>
+    <section id="introimg" class="introimg mt-[40px]">
+      <img src="/assets/img/Banner.png" alt="About">
+    </section>
+    <section id="intro mt-[50px]">
+      <div class="flex mt-[100px]">
+        <div class="chap ml-[-100px]">
+          <img src="/assets/img/Image.png" alt="image">
+        </div>
+        <div class="ong block mt-[40px] ml-[60px]">
+          <div class="h3 font-['Yellowtail'] font-normal text-[36px] leading-[49.06px] text-[#7EB693]">
+            <h3>About Us</h3>
+          </div>
+          <div class="h1 font-['Roboto'] font-extrabold text-[50px] leading-[58.59px] text-[#274C5B]">
+            <h1>We do Creative <br>
+              Things for Success</h1>
+          </div>
+          <div
+            class="1p font-['Open Sans'] font-normal text-[18px] leading-[29.77px] text-[#525C60] w-[671px] h-[210px]">
+            Simply dummy text of the printing and typesetting industry. Lorem
+            had ceased to been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley.
+          </div>
+          <div
+            class="2p font-['Open Sans'] font-normal text-[18px] leading-[29.77px] text-[#525C60] w-[671px] h-[210px] mt-[-15px]">
+            Simply dummy text of the printing and typesetting industry. Lorem
+            had ceased to been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley.
+          </div>
+          <div class="flex">
+            <div class="left flex">
+              <img src="/assets/icons/Icon.svg" alt="traktor">
+              <h3
+                class="ml-[15px] mt-[10px] font-['Roboto'] font-medium  text-[25px] leading-[29.3px] text-[#274C5B] w-[226px] h-[62px]">
+                Modern Agriculture
+                Equipment
+              </h3>
+            </div>
+            <div class="right flex ml-[35px]">
+              <img src="/assets/icons/Icon (1).svg" alt="icon">
+              <h3
+                class="ml-[15px] mt-[10px] font-['Roboto'] font-medium  text-[25px] leading-[29.3px] text-[#274C5B] w-[226px] h-[62px]">
+                No growth hormones are used</h3>
+            </div>
+          </div>
 
- <section class="flex">
-    <div class="block">
-        <img src="/assets/img/Banner.png" alt="Banner" class="mt-[50px]">
-    </div>
- </section>
+          <div class="buttonsimon flex w-[226px] h-[80px] rounded-[16px] border-solid bg-[#274C5B] mt-[40px]">
+            <p class="font-['Roboto'] font-bold text-[20px] leading-[23.44px] text-[#FFFFFF] ml-[40px] mt-[27px]">
+              Explore More</p>
+            <img src="/assets/icons/Aerrow.svg" alt="image" class="w-[19px] h-[19px] ml-[20px] mt-[30px]">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="advertisement" class="w-[1920px] h-[1429px] mt-[90px]" style="background-color:rgba(249, 248, 248, 1);">
+      <div class="all block">
+        <div class="first flex">
+          <div class="first block mt-[100px] ml-[200px]">
+            <div class="h3">
+              <h3 class="font-['Yellowtail'] text-[#7EB693] text-normal text-[36px]">Why Choose us?</h3>
+            </div>
+            <div class="h2">
+              <h2 class="font-['Roboto'] text-[50px] w-[524px] h-[118px] text-[#274C5B] leading-[58.59px] mt-[5px]"
+                style="font-weight: 800;">We do not buy from the
+                open market & traders.</h2>
+            </div>
+            <div
+              class="font-['Open Sans'] text-normal text-[18px] leading-[29.77px] text-[#525C60] w-[671px] h-[60px] mt-[10px]">
+              Simply dummy text of the printing and typesetting
+              industry. Lorem had ceased <br> to been the industry's standard the
+              1500s, when an unknown</div>
+
+            <div
+              class="percent flex mt-[35px] rounded-[49px] border-solid border-[2px] bg-[#ECECEC] w-[300px] h-[75px] ">
+              <img src="/assets/icons/tumaloq.svg" alt="aylana" class="w-[19px] h-[19px] mt-[25px] ml-[15px]">
+              <h4 class="font-['Roboto'] text-[20px] text-[#274C5B] mt-[18px] ml-[10px]" style="font-weight: 500;">100%
+                Natural Product</h4>
+            </div>
+            <div
+              class="font-['Open Sans'] text-normal text-[18px] leading-[29.77px] text-[#525C60] w-[444px] h-[60px] mt-[10px] ml-[40px]">
+              <p>Simply dummy text of the printing and typesetting industry Lorem Ipsum</p>
+            </div>
+            <div
+              class="recictance flex mt-[20px] rounded-[49px] border-solid border-[2px] bg-[#ECECEC] w-[300px] h-[75px]">
+              <img src="/assets/icons/tumaloq.svg" alt="aylana" class="w-[19px] h-[19px] mt-[25px] ml-[15px]">
+              <h4 class="font-['Roboto'] text-[20px] text-[#274C5B] mt-[18px] ml-[10px]"> Increases resistance</h4>
+            </div>
+            <div
+              class="font-['Open Sans'] text-normal text-[18px] leading-[29.77px] text-[#525C60] w-[444px] h-[60px] mt-[10px] ml-[40px]">
+              <p>Filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing</p>
+            </div>
+
+          </div>
+          <div class="second mt-[100px] ml-[185px]">
+            <img src="/assets/img/Image (1).png" alt="image" class="w-[678px] h-[579px]">
+          </div>
+        </div>
+        <div class="tortoglon flex mt-[200px] gap-[100px] ml-[400px]">
+          <div class="1oglon block w-[257px] h-[335px] justify-center rounded-[30px]" style="background-color:rgba(255, 255, 255, 1);">
+            <img src="/assets/icons/karzinka.svg" alt="karzinka" class=" ml-[90px] mt-[50px] ">
+            <h4 class="font-['Roboto'] text-[25px] text-[#274C5B] mt-[25px]"
+              style="font-weight: 800; text-align: center;">Return Policy</h4>
+            <p class="mt-[15px] ml-[35px] w-[184px] h-[115px] font-['Open Sans'] font-normal text-[18px] text-center text-[#525C60]">Simply dummy text of the printintypesetting industry.</p>
+          </div>
+          <div class="2oglon  w-[257px] h-[335px] justify-center rounded-[30px]" style="background-color:rgba(255, 255, 255, 1);">
+            <img src="/assets/icons/bak.svg" alt="bak" class="ml-[90px] mt-[50px]">
+            <h4 class="font-['Roboto'] text-[25px] text-[#274C5B] mt-[25px]"
+              style="font-weight: 800; text-align: center;">100% Fresh</h4>
+            <p class="mt-[15px]  ml-[35px] w-[184px] h-[115px] font-['Open Sans'] text-normal text-[18px] text-[#525C60]"
+              style="text-align: center;">Simply dummy text of the printintypesetting industry.</p>
+          </div>
+          <div class="3oglon  w-[257px] h-[335px] justify-center rounded-[30px]" style="background-color:rgba(255, 255, 255, 1);">
+            <img src="/assets/icons/soat.svg" alt="time" class="ml-[90px] mt-[50px]">
+            <h4 class="font-['Roboto'] text-[25px] text-[#274C5B] mt-[25px]"
+              style="font-weight: 800; text-align: center;">Support 24/7</h4>
+            <p class="mt-[15px] ml-[35px] w-[184px] h-[115px] font-['Open Sans'] text-normal text-[18px] text-[#525C60]"
+              style="text-align: center;">Simply dummy text of the printintypesetting industry.</p>
+          </div>
+          <div class="4oglon  w-[257px] h-[335px] justify-center rounded-[30px]" style="background-color:rgba(255, 255, 255, 1);">
+            <img src="/assets/icons/karta.svg" alt="payment" class="ml-[90px] mt-[50px] ">
+            <h4 class="font-['Roboto'] text-[25px] text-[#274C5B] mt-[25px]"
+              style="font-weight: 800; text-align: center;">Secured Payment
+            </h4>
+            <p class="mt-[15px] ml-[35px] w-[184px] h-[115px] font-['Open Sans'] text-normal text-[18px] text-[#525C60]"
+              style="text-align: center;">Simply dummy text of the printintypesetting industry.</p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+
+    <section id="organic">
+      <div class="all block">
+        <div class="first flex">
+          <div class="first block">
+            <div class="h2">
+              <h2 class="font-['Yellowtail'] text-[#7EB693] text-normal text-[36px] mt-[250px] ml-[920px]">Team</h2>
+            </div>
+            <div class="h3">
+              <h3 class="font-['Roboto'] text-[40px] w-[454px] h-[59px] text-[#274C5B] leading-[58.59px] mt-[5px] ml-[780px] font-bold font-weight: 800;">Our Organic Experts</h3>
+            </div>
+            <div 
+            class="w-[852px] h-[60px] font-Open sans font-Weight: 400; Aligin-center text-[#525C60] text-normal ml-[550px] mt-[10px ]">
+            Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's<br>standard dummy text ever since the 1500s, when an unknown printer took a galley.
+            </div>
+            <div class="flex">
+              <img src="/assets/img/achkili aka.png" alt="bratim" class="ml-[120px] mt-[70px]">
+            </div> 
+            <div class="w-[184px] h-[29px] font-['Roboto'] font-Weight: 800; text-[#274C5B] font-bold text-[25px] ml-[150px] mt-[30px] text-normal">Giovani Bacardo
+              <p class="font-['Yellowtail'] text-[#7EB693] text-normal text-[25px]">Farmer</p>
+              <img src="/assets/icons/face or tw.svg" alt="galichka" class="ml-[320px] mt-[-30px]">
+            </div>
+
+            <div class="flex">
+              <img src="/assets/img/achkili opashka.png" alt="opashka" class="ml-[620px] mt-[-545px] w-[449px] h-[485px]">
+            </div>
+           <div class="w-[192] h-[29px] font-['Roboto'] text-[#274C5B] font-bold text-[25px] font-Weight: 800; ml-[650px] mt-[-35px]">Marianne Loreno
+            <p class="font-['Yellowtail'] text-[#7EB693] text-normal text-[25px]">Designer</p>
+            <img src="/assets/icons/Insta.svg" alt="Insta" class="ml-[280px] mt-[-25px]">
+            <img src="/assets/icons/face or tw.svg" alt="galichka" class="ml-[315px] mt-[-23px]">
+           </div>
+           <div class="flex">
+            <img src="/assets/img/sariqsochli opashka.png" alt="asalxone" class="ml-[1120px] mt-[-545px] w-[449px] h-[485px]">
+           </div>
+           <div class="w-[130px] h-[29px] font-['Roboto'] font-Weight: 800; text-[#274C5B] text-[25px] font-bold ml-[1150px] mt-[-30px]">Riga Pelore
+            <p class="font-['Yellowtail'] text-[#7EB693] text-normal text-[25px]">Farmer</p>
+            <img src="/assets/icons/Insta.svg" alt="Insta" class="ml-[250px] mt-[-25px]">
+            <img src="/assets/icons/face or tw.svg" alt="galichka" class="ml-[290px] mt-[-23px]">
+           </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="AboutUs">
+      <div class="all block">
+        <div class="first flex">
+          <div class="first block">
+            <div class="w-[1920px] h-[892px] top-[4303px] mt-[150px]" style="background-color: rgb(39, 76, 91);">
+            </div>
+            <div class="flex">
+            <h1 class="font-['Yellowtail'] text-[#7EB693] text-normal text-[25px] ml-[900px] mt-[-650px]">About Us</h1>
+            <p class="w-[502px] h-[59px] font-['Roboto'] font-Weight: 800; text-[#FFFFFF] font-bold text-[25px] mt-[-600px] ml-[-170px]">What We Offer for You</p>
+          </div>
+          <div class="flex">
+            <img src="/assets/icons/sariq turpo.svg" alt="giyox" class="mt-[-650px] ml-[200px]">
+            <img src="/assets/icons/giyoxlar.svg" alt="giyoxlar" class="ml-[30px] mt-[-650px]">
+            <img src="/assets/icons/anor.svg" alt="anor" class="ml-[30px] mt-[-650px]">
+            <img src="/assets/icons/tomir.svg" alt="giyox" class="ml-[10px] mt-[-650px]">
+          </div>
+          <div class="w-[61px] h-[29px] top-[338px] font-['Roboto'] font-weihgt:400; mt-[-150px] ml-[330px] text-[#FFFFFF]">Spicy</div>
+          <h1 class="w-[150.4px] h-[29px] top-[338px] font-['Roboto'] font-weight: 500; ml-[690px] mt-[-30px] text-[#FFFFFF]">Nuts & Feesd</h1>
+          <h2 class="w-[150.4px] h-[29px] top-[338px] font-['Roboto'] font-weight: 500; ml-[1080px] mt-[-30px] text-[#FFFFFF]">Fruits</h2>
+          <h3 class="w-[150.4px] h-[29px] top-[338px] font-['Roboto'] font-weight: 500; ml-[1400px] mt-[-30px] text-[#FFFFFF]">Vegetable</h3>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
